@@ -1,0 +1,65 @@
+/* 
+    Document   : w3fix
+    Created on : Mar 2, 2012, 5:09:27 PM
+    Author     : zhouhk
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#ibm-content-nav #ibm-primary-tabs{
+	height: 39px
+}
+
+.claro .dijitButton .dijitButtonNode, .claro .dijitDropDownButton .dijitButtonNode, .claro .dijitComboButton .dijitButtonNode, .claro .dijitToggleButton .dijitButtonNode {
+    background: -moz-linear-gradient(center top , #F5F5F5, #DBDBDB) repeat scroll 0 0 transparent;
+    border: 1px solid #DBDBDB;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+    color: #000000;
+    cursor: pointer;
+    font-family: Arial,Helvetica;
+    min-width: 120px;
+    padding: 7px 10px !important;
+    text-align: center;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.claro .dijitButtonHover .dijitButtonNode {
+	background: -moz-linear-gradient(center top , #FFFFFF, #CBCBCB) repeat scroll 0 0 transparent;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.claro .dijitButtonActive .dijitButtonNode {
+	background: -moz-linear-gradient(center top , #CBCBCB, #F5F5F5) repeat scroll 0 0 transparent;
+	box-shadow: 0 1px 3px #C1C1C1 inset;
+	color: #515151;
+}
+
+.claro .dijitButtonFocused .dijitButtonNode {
+	background: -moz-linear-gradient(center top , #FFFFFF, #ABABAB) repeat scroll 0 0 transparent;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.claro .dijitButtonText {
+	font-size: 1em;
+}
+
+.claro .dijitButtonHover .dijitButtonText, .claro .dijitButtonActive .dijitButtonText, .claro .dijitButtonFocused .dijitButtonText {
+	font-weight: bold;
+}
+
+.claro .dijitTooltipContainer {
+	border: 1px solid #C6C6C6;
+}
+
+.dijitTooltip {
+	font-size: 0.8em;
+}
+
+hr {
+	color: #666666;
+    border-style: solid;
+    border: 1px 0;
+    margin: 15px 0 10px 0;
+	height:1;
+}

@@ -1,0 +1,48 @@
+define({ root:
+//begin v1.x content
+({
+	loginTitle: "Please login to use this feature.",
+    loginFailedText : "Login Failed! Please check your username/password and try again.",
+    userNameLabel: "Intranet ID:",
+    passwordLabel: "Password:",
+    termUseTitle: "Term of Use",
+    termUseText: "By Logging in, I agree to the Terms of Use for this project and I want to continue.",
+    termUseLink: "Term of Use",
+    LoginButtonLabel: "Login",
+    LoginLoading: "Login... Please wait",
+    userNameSampleText: "(e.g., joe@us.ibm.com)",
+    forgetPasswordText: "Forget your password?",
+	loginButton: "Login"
+})
+//end v1.x content
+,
+"zh": true,
+"zh-tw": true,
+"tr": true,
+"th": true,
+"sv": true,
+"sl": true,
+"sk": true,
+"ru": true,
+"ro": true,
+"pt": true,
+"pt-pt": true,
+"pl": true,
+"nl": true,
+"nb": true,
+"ko": true,
+"kk": true,
+"ja": true,
+"it": true,
+"hu": true,
+"he": true,
+"fr": true,
+"fi": true,
+"es": true,
+"el": true,
+"de": true,
+"da": true,
+"cs": true,
+"ca": true,
+"ar": true
+});

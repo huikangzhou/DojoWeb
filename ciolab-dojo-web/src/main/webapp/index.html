@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+        <link rel="schema.DC" href="http://purl.org/DC/elements/1.0/"/> 
+        <link rel="SHORTCUT ICON" href="http://w3.ibm.com/favicon.ico"/> 
+        <meta name="DC.Publisher" content="IBM Corporation"/> 
+        <meta name="DC.Rights" content="© Copyright IBM Corp. 2011"/> 
+        <meta name="Keywords" content="keywords"/> 
+        <meta name="DC.Date" scheme="iso8601" content="2011-06-02"/> 
+        <meta name="Source" content="v17 Template Generator, Template 17.02"/> 
+        <meta name="Security" content="Public"/> 
+        <meta name="Abstract" content="description"/> 
+        <meta name="IBM.Effective" scheme="W3CDTF" content="2011-06-01"/> 
+        <meta name="DC.Subject" scheme="IBM_SubjectTaxonomy" content="CRT"/> 
+        <meta name="Owner" content="Hui Kang Zhou/China/IBM"/> 
+        <meta name="DC.Language" scheme="rfc1766" content="en-US"/> 
+        <meta name="IBM.Country" content="US"/> 
+        <meta name="Robots" content="index,follow"/> 
+        <meta name="DC.Type" scheme="IBM_ContentClassTaxonomy" content="CT002"/> 
+        <meta name="Description" content="description"/>
+
+        <title>IBM</title>
+		<link href="http://ajax.googleapis.com/ajax/libs/dojo/1.7.2/dijit/themes/claro/claro.css" rel="stylesheet" title="w3" type="text/css" />
+        <link href="http://1.w3.s81c.com/common/v17/css/w3.css" rel="stylesheet" title="w3" type="text/css" />
+		<link href="css/w3fix.css" rel="stylesheet" type="text/css" />
+        <!-- Develop build -->
+		<script>
+			dojoConfig = {
+				parseOnLoad: false,
+				async: true,
+				packages: [
+					// Any references to a "com" resource should load modules locally, *not* from CDN
+					{
+						name: "com",
+						location: "/ciolab-dojo-web/js/com"
+					}
+				]
+			};
+		</script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/dojo/1.7.2/dojo/dojo.js"></script>
+
+        <script type="text/javascript">
+            main = {};
+            require(["dojo/dom", "com/ibm/ciolab/sample/Main", "dojo", "dojo/domReady!"], function(dom, Main, dojo){
+				main = new Main({}, dom.byId("container"));
+				main.initialize();
+			});
+        </script>
+    </head> 
+    <body id="ibm-com" class="claro">
+		<div id="container"></div>
+	</body> 
+</html> 
